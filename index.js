@@ -3,7 +3,7 @@ const connection=require('./config/db.js');
 const app=express();
 app.use(express.json())
 require("dotenv").config();
-const {ProductRoutes} =require("../BackEnd/Routes/Product.Routes.js")
+const {ProductRoutes} =require("./Routes/Product.Routes")
 
 
 app.use("/",ProductRoutes)
