@@ -21,7 +21,7 @@ app.use("/",ProductRoutes)
 app.listen(process.env.port,async()=>{
    try{
     await connection;
-    console.log('server is running on 3500')
+    console.log(`server is running on ${process.env.port}`)
    }catch(err){
     console.log('something  wrong in the server')
    }
