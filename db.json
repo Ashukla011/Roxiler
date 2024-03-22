@@ -1,6 +1,6 @@
 {
-    "data": {
-      "January": [
+    "data": [
+   
         {
           "id": 1,
           "user_rating": 4.5,
@@ -27,8 +27,8 @@
           "new_restaurants_added": 3,
           "new_user_reorders": 15
         }
-      ],
-      "February": [
+      ,
+    
         {
             "id": 2,
             "user_rating": 4,
@@ -55,8 +55,8 @@
             "new_restaurants_added": 10,
             "new_user_reorders": 40
           }
-      ],
-      "March": [
+      ,
+   
         {
             "id": 3,
             "user_rating": 3.5,
@@ -83,8 +83,8 @@
             "new_restaurants_added": 20,
             "new_user_reorders": 50
           }
-      ],
-      "April": [
+      ,
+     
         {
             "id": 4,
             "user_rating": 4,
@@ -111,8 +111,8 @@
             "new_restaurants_added": 30,
             "new_user_reorders": 60
           }
-      ],
-      "May": [
+      ,
+     
         {
             "id": 5,
             "user_rating": 4,
@@ -139,8 +139,8 @@
             "new_restaurants_added": 40,
             "new_user_reorders": 70
           }
-      ],
-      "June": [
+      ,
+    
         {
             "id": 6,
             "user_rating": 3.5,
@@ -167,8 +167,8 @@
             "new_restaurants_added": 100,
             "new_user_reorders": 200
           }
-      ],
-      "July": [
+      ,
+    
         {
             "id": 7,
             "user_rating": 4.5,
@@ -195,8 +195,8 @@
             "new_restaurants_added": 150,
             "new_user_reorders": 300
           }
-      ],
-      "August": [
+      ,
+     
         {
             "id": 8,
             "user_rating": 4.5,
@@ -223,8 +223,8 @@
             "new_restaurants_added": 200,
             "new_user_reorders": 1000
           }
-      ],
-      "September": [
+      ,
+     
         {
             "id": 9,
             "user_rating": 4.5,
@@ -251,8 +251,8 @@
             "new_restaurants_added": 3,
             "new_user_reorders": 15
           }
-      ],
-      "October": [
+      ,
+     
         {
             "id": 10,
             "user_rating": 4.5,
@@ -279,8 +279,8 @@
             "new_restaurants_added": 250,
             "new_user_reorders": 2000
           }
-      ],
-      "November": [
+      ,
+   
         {
             "id": 11,
             "user_rating": 4.5,
@@ -306,9 +306,9 @@
             "distribution_efficiency": "Efficient distribution network covering urban and suburban areas",
             "new_restaurants_added": 300,
             "new_user_reorders": 3000
-          }
-      ],
-      "December": [
+          },
+      
+      
         {
             "id": 12,
             "user_rating": 4.5,
@@ -335,6 +335,6 @@
             "new_restaurants_added": 150,
             "new_user_reorders": 4000
           }
-      ]
+       ]
     }
-  }
+ 
