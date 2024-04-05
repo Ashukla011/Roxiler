@@ -10,8 +10,8 @@
             "new_restaurant": false,
             "addition_month": "January",
             "addition_year": 2023,
-            "sales_volume": 500,
-            "revenue_generated": 39000,
+            "sales_volume": 30000,
+            "revenue_generated": 60000,
             "product_performance": "High",
             "customer_demographics": {
               "age_group": "25-35",
@@ -26,7 +26,7 @@
             "distribution_efficiency": "Efficient distribution network covering urban and suburban areas",
             "new_restaurants_added": 500,
             "new_user_reorders": 1000,
-            "expense": 3000
+            "expense": 35000
           },
           {
             "id": 7,
@@ -36,7 +36,7 @@
             "new_restaurant": false,
             "addition_month": "February",
             "addition_year": 2023,
-            "sales_volume": 550,
+            "sales_volume": 23000,
             "revenue_generated": 42000,
             "product_performance": "High",
             "customer_demographics": {
@@ -52,7 +52,7 @@
             "distribution_efficiency": "Effective delivery network spanning suburban areas",
             "new_restaurants_added": 550,
             "new_user_reorders": 1100,
-            "expense": 5000
+            "expense": 30000
           },
           {
             "id": 3,
@@ -63,7 +63,7 @@
             "new_restaurant": false,
             "addition_month": "March",
             "addition_year": 2023,
-            "sales_volume": 700,
+            "sales_volume": 39000,
             "revenue_generated": 51000,
             "product_performance": "High",
             "customer_demographics": {
@@ -79,7 +79,7 @@
             "distribution_efficiency": "Efficient logistics ensuring timely deliveries",
             "new_restaurants_added": 700,
             "new_user_reorders": 1400,
-            "expense": 10000
+            "expense": 40000
           },
           {
             "id": 4,
@@ -90,8 +90,8 @@
             "new_restaurant": true,
             "addition_month": "April",
             "addition_year": 2023,
-            "sales_volume": 550,
-            "revenue_generated": 42000,
+            "sales_volume": 40000,
+            "revenue_generated": 70000,
             "product_performance": "High",
             "customer_demographics": {
               "age_group": "20-40",
@@ -106,7 +106,7 @@
             "distribution_efficiency": "Expanded delivery fleet reaching more customers",
             "new_restaurants_added": 550,
             "new_user_reorders": 1100,
-            "expense": 12000
+            "expense": 50000
           },
           {
             "id": 5,
@@ -117,8 +117,8 @@
             "new_restaurant": false,
             "addition_month": "May",
             "addition_year": 2023,
-            "sales_volume": 480,
-            "revenue_generated": 36000,
+            "sales_volume": 20000,
+            "revenue_generated":40000,
             "product_performance": "Medium",
             "customer_demographics": {
               "age_group": "25-35",
@@ -133,7 +133,7 @@
             "distribution_efficiency": "Challenges in reaching remote suburban areas",
             "new_restaurants_added": 480,
             "new_user_reorders": 960,
-            "expense": 9000
+            "expense": 20000
           },
           {
             "id": 6,
@@ -144,7 +144,7 @@
             "new_restaurant": true,
             "addition_month": "June",
             "addition_year": 2023,
-            "sales_volume": 650,
+            "sales_volume": 15000,
             "revenue_generated": 48000,
             "product_performance": "High",
             "customer_demographics": {
@@ -160,7 +160,7 @@
             "distribution_efficiency": "Strategic partnerships with delivery platforms ensuring timely deliveries",
             "new_restaurants_added": 650,
             "new_user_reorders": 1300,
-            "expense": 13000
+            "expense": 18000
           }
         ]
       
