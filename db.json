@@ -25,7 +25,8 @@
             "marketing_effectiveness": "Successful in driving new customer acquisition",
             "distribution_efficiency": "Efficient distribution network covering urban and suburban areas",
             "new_restaurants_added": 500,
-            "new_user_reorders": 1000
+            "new_user_reorders": 1000,
+            "expense": 3000
           },
           {
             "id": 7,
@@ -50,7 +51,8 @@
             "marketing_effectiveness": "Positive word-of-mouth driving repeat business",
             "distribution_efficiency": "Effective delivery network spanning suburban areas",
             "new_restaurants_added": 550,
-            "new_user_reorders": 1100
+            "new_user_reorders": 1100,
+            "expense": 5000
           },
           {
             "id": 3,
@@ -76,7 +78,8 @@
             "marketing_effectiveness": "Word-of-mouth referrals driving new business",
             "distribution_efficiency": "Efficient logistics ensuring timely deliveries",
             "new_restaurants_added": 700,
-            "new_user_reorders": 1400
+            "new_user_reorders": 1400,
+            "expense": 10000
           },
           {
             "id": 4,
@@ -102,7 +105,8 @@
             "marketing_effectiveness": "Discount promotions attracting new customers",
             "distribution_efficiency": "Expanded delivery fleet reaching more customers",
             "new_restaurants_added": 550,
-            "new_user_reorders": 1100
+            "new_user_reorders": 1100,
+            "expense": 12000
           },
           {
             "id": 5,
@@ -128,7 +132,8 @@
             "marketing_effectiveness": "Online ads generating traffic but low conversion",
             "distribution_efficiency": "Challenges in reaching remote suburban areas",
             "new_restaurants_added": 480,
-            "new_user_reorders": 960
+            "new_user_reorders": 960,
+            "expense": 9000
           },
           {
             "id": 6,
@@ -154,7 +159,8 @@
             "marketing_effectiveness": "Social media influencer partnerships driving brand awareness",
             "distribution_efficiency": "Strategic partnerships with delivery platforms ensuring timely deliveries",
             "new_restaurants_added": 650,
-            "new_user_reorders": 1300
+            "new_user_reorders": 1300,
+            "expense": 13000
           }
         ]
       
