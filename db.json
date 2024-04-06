@@ -1,169 +1,196 @@
 {
-    "data":
-    [
-      
-          {
-            "id": 1,
-            "user_rating": 3,
-            "user_review": "Excellent food quality, will definitely order again!",
-            "restaurant_id": 101,
-            "new_restaurant": false,
-            "addition_month": "January",
-            "addition_year": 2023,
-            "sales_volume": 30000,
-            "revenue_generated": 60000,
-            "product_performance": "High",
-            "customer_demographics": {
-              "age_group": "25-35",
-              "gender": "Male",
-              "location": "Urban"
-            },
-            "market_trends": "Increasing demand for organic options",
-            "competitor_analysis": "Competitors focusing on fast delivery times",
-            "customer_feedback": "Customers appreciate the variety of options available",
-            "customer_loyalty": "High",
-            "marketing_effectiveness": "Successful in driving new customer acquisition",
-            "distribution_efficiency": "Efficient distribution network covering urban and suburban areas",
-            "new_restaurants_added": 500,
-            "new_user_reorders": 1000,
-            "expense": 35000
-          },
-          {
-            "id": 7,
-            "user_rating": 4,
-            "user_review": "Great experience, would recommend to friends!",
-            "restaurant_id": 101,
-            "new_restaurant": false,
-            "addition_month": "February",
-            "addition_year": 2023,
-            "sales_volume": 23000,
-            "revenue_generated": 42000,
-            "product_performance": "High",
-            "customer_demographics": {
-              "age_group": "30-45",
-              "gender": "Female",
-              "location": "Suburban"
-            },
-            "market_trends": "Preference for locally sourced ingredients",
-            "competitor_analysis": "Competitors introducing loyalty programs",
-            "customer_feedback": "Customers love the seafood options and waterfront view",
-            "customer_loyalty": "High",
-            "marketing_effectiveness": "Positive word-of-mouth driving repeat business",
-            "distribution_efficiency": "Effective delivery network spanning suburban areas",
-            "new_restaurants_added": 550,
-            "new_user_reorders": 1100,
-            "expense": 30000
-          },
-          {
-            "id": 3,
-            "user_rating": 5,
-            "user_review": "Absolutely delicious food, will recommend to friends!",
-            "restaurant_id": 103,
-            "restaurant_name": "Blue Spice Kitchen",
-            "new_restaurant": false,
-            "addition_month": "March",
-            "addition_year": 2023,
-            "sales_volume": 39000,
-            "revenue_generated": 51000,
-            "product_performance": "High",
-            "customer_demographics": {
-              "age_group": "30-45",
-              "gender": "Male",
-              "location": "Urban"
-            },
-            "market_trends": "Rising demand for fusion cuisine",
-            "competitor_analysis": "Competitors offering meal kit delivery services",
-            "customer_feedback": "Customers appreciate the bold flavors and innovative menu",
-            "customer_loyalty": "High",
-            "marketing_effectiveness": "Word-of-mouth referrals driving new business",
-            "distribution_efficiency": "Efficient logistics ensuring timely deliveries",
-            "new_restaurants_added": 700,
-            "new_user_reorders": 1400,
-            "expense": 40000
-          },
-          {
-            "id": 4,
-            "user_rating": 4,
-            "user_review": "Good food, fast delivery!",
-            "restaurant_id": 104,
-            "restaurant_name": "Blue Ribbon Diner",
-            "new_restaurant": true,
-            "addition_month": "April",
-            "addition_year": 2023,
-            "sales_volume": 40000,
-            "revenue_generated": 70000,
-            "product_performance": "High",
-            "customer_demographics": {
-              "age_group": "20-40",
-              "gender": "Male",
-              "location": "Urban"
-            },
-            "market_trends": "Preference for comfort foods",
-            "competitor_analysis": "Competitors offering contactless delivery options",
-            "customer_feedback": "Customers enjoy the nostalgic atmosphere and hearty meals",
-            "customer_loyalty": "Moderate",
-            "marketing_effectiveness": "Discount promotions attracting new customers",
-            "distribution_efficiency": "Expanded delivery fleet reaching more customers",
-            "new_restaurants_added": 550,
-            "new_user_reorders": 1100,
-            "expense": 50000
-          },
-          {
-            "id": 5,
-            "user_rating": 3,
-            "user_review": "Decent food, could improve on delivery time.",
-            "restaurant_id": 105,
-            "restaurant_name": "Blue Lotus Grill",
-            "new_restaurant": false,
-            "addition_month": "May",
-            "addition_year": 2023,
-            "sales_volume": 20000,
-            "revenue_generated":40000,
-            "product_performance": "Medium",
-            "customer_demographics": {
-              "age_group": "25-35",
-              "gender": "Female",
-              "location": "Suburban"
-            },
-            "market_trends": "Preference for locally sourced ingredients",
-            "competitor_analysis": "Competitors expanding menu offerings",
-            "customer_feedback": "Customers appreciate the healthy options and friendly staff",
-            "customer_loyalty": "Low",
-            "marketing_effectiveness": "Online ads generating traffic but low conversion",
-            "distribution_efficiency": "Challenges in reaching remote suburban areas",
-            "new_restaurants_added": 480,
-            "new_user_reorders": 960,
-            "expense": 20000
-          },
-          {
-            "id": 6,
-            "user_rating": 5,
-            "user_review": "Fantastic experience overall!",
-            "restaurant_id": 106,
-            "restaurant_name": "Blue Diamond Deli",
-            "new_restaurant": true,
-            "addition_month": "June",
-            "addition_year": 2023,
-            "sales_volume": 15000,
-            "revenue_generated": 48000,
-            "product_performance": "High",
-            "customer_demographics": {
-              "age_group": "18-30",
-              "gender": "Male",
-              "location": "Urban"
-            },
-            "market_trends": "Demand for artisanal sandwiches on the rise",
-            "competitor_analysis": "Competitors expanding delivery radius",
-            "customer_feedback": "Customers love the customizable options and quick service",
-            "customer_loyalty": "High",
-            "marketing_effectiveness": "Social media influencer partnerships driving brand awareness",
-            "distribution_efficiency": "Strategic partnerships with delivery platforms ensuring timely deliveries",
-            "new_restaurants_added": 650,
-            "new_user_reorders": 1300,
-            "expense": 18000
-          }
-        ]
-      
-           
+  "metrics": [
+    {
+      "year": 2022,
+      "category": "food",
+      "sales": {
+        "total": 1200000,
+        "by_month": {
+          "January": 100000,
+          "February": 110000,
+          "March": 120000,
+          "April": 115000,
+          "May": 125000,
+          "June": 130000,
+          "July": 135000,
+          "August": 140000,
+          "September": 145000,
+          "October": 150000,
+          "November": 155000,
+          "December": 160000
         }
- 
+      },
+      "expenses": {
+        "total": 750000,
+        "by_month": {
+          "January": 60000,
+          "February": 65000,
+          "March": 70000,
+          "April": 67500,
+          "May": 72500,
+          "June": 75000,
+          "July": 78000,
+          "August": 80000,
+          "September": 82500,
+          "October": 85000,
+          "November": 87500,
+          "December": 90000
+        }
+      },
+      "revenue": {
+        "total": 450000,
+        "by_month": {
+          "January": 100000,
+          "February": 105000,
+          "March": 110000,
+          "April": 107500,
+          "May": 115000,
+          "June": 120000,
+          "July": 125000,
+          "August": 130000,
+          "September": 135000,
+          "October": 140000,
+          "November": 145000,
+          "December": 150000
+        }
+      },
+      "top_selling_products": [
+        {
+          "product_id": "123",
+          "name": "Product A",
+          "sales_quantity": 40000
+        },
+        {
+          "product_id": "456",
+          "name": "Product B",
+          "sales_quantity": 38000
+        },
+        {
+          "product_id": "789",
+          "name": "Product C",
+          "sales_quantity": 35000
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "category": "food",
+      "sales": {
+        "total": 1500000,
+        "by_month": {
+          "January": 120000,
+          "February": 130000,
+          "March": 140000,
+          "April": 135000,
+          "May": 145000,
+          "June": 155000,
+          "July": 160000,
+          "August": 165000,
+          "September": 170000,
+          "October": 175000,
+          "November": 180000,
+          "December": 190000
+        }
+      },
+      "expenses": {
+        "total": 900000,
+        "by_month": {
+          "January": 70000,
+          "February": 80000,
+          "March": 90000,
+          "April": 85000,
+          "May": 90000,
+          "June": 95000,
+          "July": 100000,
+          "August": 105000,
+          "September": 110000,
+          "October": 115000,
+          "November": 120000,
+          "December": 125000
+        }
+      },
+      "revenue": {
+        "total": 600000,
+        "by_month": {
+          "January": 130000,
+          "February": 140000,
+          "March": 150000,
+          "April": 145000,
+          "May": 155000,
+          "June": 160000,
+          "July": 165000,
+          "August": 170000,
+          "September": 175000,
+          "October": 180000,
+          "November": 185000,
+          "December": 190000
+        }
+      },
+      "top_selling_products": [
+        {
+          "product_id": "123",
+          "name": "Product A",
+          "sales_quantity": 50000
+        },
+        {
+          "product_id": "456",
+          "name": "Product B",
+          "sales_quantity": 48000
+        },
+        {
+          "product_id": "789",
+          "name": "Product C",
+          "sales_quantity": 45000
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "category": "food",
+      "sales": {
+        "total": 1700000,
+        "by_month": {
+          "January": 130000,
+          "February": 140000,
+          "March": 150000
+         
+        }
+      },
+      "expenses": {
+        "total": 1000000,
+        "by_month": {
+          "January": 75000,
+          "February": 85000,
+          "March": 95000
+         
+        }
+      },
+      "revenue": {
+        "total": 700000,
+        "by_month": {
+          "January": 135000,
+          "February": 145000,
+          "March": 155000
+        
+        }
+      },
+      "top_selling_products": [
+        {
+          "product_id": "123",
+          "name": "Product A",
+          "sales_quantity": 55000
+        },
+        {
+          "product_id": "456",
+          "name": "Product B",
+          "sales_quantity": 52000
+        },
+        {
+          "product_id": "789",
+          "name": "Product C",
+          "sales_quantity": 49000
+        }
+      ]
+    }
+  ]
+}
