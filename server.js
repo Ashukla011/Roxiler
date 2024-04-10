@@ -41,10 +41,10 @@ app.post("/add", async (req, res) => {
 app.patch("/edit/:id", async (req, res) => {
   try {
     const { _id } = req.params;
-    const { title, description } = req.body;
+    const { title, } = req.body;
     const task = await TaskSchema.findByIdAndUpdate(
       _id,
-      { title, description },
+      { title },
       { new: true }
     );
     if (!task) {
