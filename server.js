@@ -15,7 +15,7 @@ let addCount = 0;
 let updateCount = 0;
 
 // GET all tasks
-app.get("/api/tasks", async (req, res) => {
+app.get("/tasks", async (req, res) => {
   try {
     const tasks = await TaskSchema.find();
     res.json(tasks);
@@ -25,7 +25,7 @@ app.get("/api/tasks", async (req, res) => {
 });
 
 // POST a new task
-app.post("/api/add", async (req, res) => {
+app.post("/add", async (req, res) => {
   try {
     const { title, description } = req.body;
     const task = new TaskSchema({ description,title });
@@ -38,7 +38,7 @@ app.post("/api/add", async (req, res) => {
 });
 
 // UPDATE a task
-app.patch("/api/edit/:id", async (req, res) => {
+app.patch("/edit/:id", async (req, res) => {
   try {
     const { _id } = req.params;
     const { title, description } = req.body;
@@ -59,7 +59,7 @@ app.patch("/api/edit/:id", async (req, res) => {
 
 
 // Count API
-app.get("/api/count", (req, res) => {
+app.get("/count", (req, res) => {
   res.json({ addCount, updateCount });
 });
 
