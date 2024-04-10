@@ -38,43 +38,26 @@ app.post("/api/add", async (req, res) => {
 });
 
 // UPDATE a task
-// app.patch("/api/edit/:id", async (req, res) => {
-//   try {
-//     const { _id } = req.params;
-//     const { title, description } = req.body;
-//     const task = await TaskSchema.findByIdAndUpdate(
-//       _id,
-//       { title, description },
-//       { new: true }
-//     );
-//     if (!task) {
-//       return res.status(404).json({ error: "Task not found" });
-//     }
-//     updateCount++;
-//     res.json(task);
-//   } catch (err) {
-//     res.status(400).json({ error: err.message });
-//   }
-// });
-
-app.patch("/update/:noteID", async (req, res) => {
-  var userID = req.body.userID;
-  var noteID = req.params.noteID;
-  var payload = req.body;
-
+app.patch("/api/edit/:id", async (req, res) => {
   try {
-    const notes = await PostModel.findOne({ _id: noteID });
-    if (userID !== notes.userID) {
-      res.send("Not Authorized");
-    } else {
-      await PostModel.findByIdAndUpdate({ _id: noteID }, payload);
-      res.send("Notes Edited Successfully");
+    const { _id } = req.params;
+    const { title, description } = req.body;
+    const task = await TaskSchema.findByIdAndUpdate(
+      _id,
+      { title, description },
+      { new: true }
+    );
+    if (!task) {
+      return res.status(404).json({ error: "Task not found" });
     }
-  } catch (error) {
-    console.log(error);
-    console.log("Somthing error in Edit");
+    updateCount++;
+    res.json(task);
+  } catch (err) {
+    res.status(400).json({ error: err.message });
   }
 });
+
+
 // Count API
 app.get("/api/count", (req, res) => {
   res.json({ addCount, updateCount });
