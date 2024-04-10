@@ -5,10 +5,10 @@ const { connection } = require("./db");
 const  cors = require('cors')
 
  
-app.use(cors())
+
 require("dotenv").config();
 const app = express();
-
+app.use(cors())
 app.use(bodyParser.json());
 
 let addCount = 0;
