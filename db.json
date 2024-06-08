@@ -1,4 +1,4 @@
-{ [
+{ "data":[
     {
         "title": "Introduction to Python",
         "description": "Learn the basics of Python programming, including syntax, variables, and data types.",
@@ -64,4 +64,5 @@
 
  "UserDetails":[
 
- ]}
+ ]
+}
