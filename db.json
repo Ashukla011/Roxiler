@@ -1,4 +1,4 @@
-{ "data":[
+[
     {
         "id": 1,
         "title": "Introduction to Python",
@@ -73,9 +73,4 @@
     }
 ]
 
-,
 
- "UserDetails":[
-
- ]
-}
